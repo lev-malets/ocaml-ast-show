@@ -1,0 +1,4 @@
+(library
+ (name ast_show)
+ (libraries compiler-libs.common)
+ (preprocess (pps ppx_deriving.show)))
